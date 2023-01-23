@@ -1,0 +1,16 @@
+# WGH-rota-csv-creator
+A python script to turn a work excel rota into a google calendar csv
+
+HOWTO
+Format using Microsoft Excel your rota line into the format shown in the example rotadata.csv. This will require a little bit of work on your end but shouldn't take long.
+Make sure to format the dates into YYYY-MM-DD (select the colum and press 'control'+'1' in Microsoft Excel)
+Save said file as a .csv file named rotadata.csv
+Install Python
+Place the script and YOUR newly created .csv file into the same working directory
+Make sure to delete the existing rotadata.csv file if you've downloaded it from GitHub as this is my rota, not yours
+Run the script
+Import the created gCalendarImportFile.csv into your Google Calendar. I recommend creating a new Google Calendar to import the file to
+
+IMPORTANT: The second column in the .csv needs to be in the format of OFF/ND/DOC/NOC/AL
+
+If theres a problem with the dates it's probably Excel displaying the format in a UK local format DD-MM-YYY while the underlying data is in the universal YYYY-MM-DD
