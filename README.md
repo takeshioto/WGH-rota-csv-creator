@@ -17,7 +17,7 @@ Make sure to delete the existing rotadata.csv file if you've downloaded it from 
 
 Run the script
 
-Import the created gCalendarImportFile.csv into your Google Calendar. I HIGHLY HIGHLY HIGHLY recommend creating a new Google Calendar to import the file to (so you can delete it if it goes wrong rather than improting the file to your main calendar then you have to delete each event individually if it's not correct)
+Import the created gCalendarImportFile.csv into your Google Calendar. I HIGHLY HIGHLY HIGHLY recommend creating a new Google Calendar to import the file to (so you can delete it if it goes wrong rather than importing the file to your main calendar, then you have to delete each event individually if it's not correct)
 
 IMPORTANT: The second column in the .csv needs to be in the format of OFF/ND/DOC/NOC/AL
 
