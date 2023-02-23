@@ -2,6 +2,7 @@
 A python script to turn a work excel rota into a google calendar csv
 
 HOWTO
+
 Format using Microsoft Excel your rota line into the format shown in the example rotadata.csv. This will require a little bit of work on your end but shouldn't take long.
 
 Make sure to format the dates into YYYY-MM-DD (select the column and press 'control'+'1' in Microsoft Excel)
